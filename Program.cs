@@ -35,7 +35,11 @@ namespace Banco
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
+                opcao = ObterOpcaoUsuario();
             }
+            Console.WriteLine("Obrigado por utilizar nossa plataforma e volte sempre!!");
+            Console.ReadLine();
+
         }
 
         private static void Depositar()
